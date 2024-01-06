@@ -1,7 +1,8 @@
 # GCPのAPI、Stremlit Sharingを使ったwebアプリ
 ### アプリ画面
-![アプリ画面](YouTube-vidanal-app/image/アプリ画面.png)<br>
+![アプリ画面](image/アプリ画面.png)
 * Streamlit Sharingサービスでドメイン取得してクラウドにUpしようとするとmoduleのインポートに失敗しているようで（以下のメッセージ）、デプロイできませんでした。
+
   ```
   File "/home/adminuser/venv/lib/python3.9/site-packages/streamlit/runtime/scriptrunner/script_runner.py", line 534, in _run_script
       exec(code, module.__dict__)
@@ -10,7 +11,7 @@
   ```
 * localhostでは表示でき、GCPのAPIも使えているようでした。それが上図のキャプチャです。
 * 後日別のStreamlit系で今回のモジュールないタイプのwebアプリ作ってデプロイしてみようと思います。
-### 別の収穫
+### 理解したこと
 以下のことが経験できました。キャプチャも取りためているので、別日にUpしていきたいと思います。
 * GCPのアカウント登録
 * GCP（Google）が提供している各種APIを使う流れ（APIキーの取得方法）
